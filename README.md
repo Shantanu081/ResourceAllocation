@@ -7,13 +7,13 @@ Developed using Java.
 * Maven
 
 ## How to build the application
-Checkout the project from this repository, then run
+Checkout the project from this repository, then run from the root folder
 ```
     mvn clean install
 ```
 
 ## How to run the application
-Build the application or use the [fat jar], then run
+Build the application or use the, then run
 ```
     java -jar target/productcatalogue-0.0.1-SNAPSHOT.jar
 ```
@@ -23,7 +23,9 @@ The application runs on port 9090
 ## How to use the application
 
 ## Request
+```
 POST: http://localhost:9090/productcatalogue/getWorkforce
+```
 {
 	"rooms" : [35, 99, 21],
 	"senior" : 10,
@@ -32,7 +34,7 @@ POST: http://localhost:9090/productcatalogue/getWorkforce
 
 ## Response
 
-[
+*[
     {
         "senior": 3,
         "junior": 1
