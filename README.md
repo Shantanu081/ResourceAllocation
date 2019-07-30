@@ -25,16 +25,17 @@ The application runs on port 9090
 ## Request
 ```
 POST: http://localhost:9090/productcatalogue/getWorkforce
-```
+
 {
 	"rooms" : [35, 99, 21],
 	"senior" : 10,
 	"junior" : 6
 }
-
+```
 ## Response
 
-*[
+```
+[
     {
         "senior": 3,
         "junior": 1
@@ -48,3 +49,4 @@ POST: http://localhost:9090/productcatalogue/getWorkforce
         "junior": 1
     }
 ]
+```
