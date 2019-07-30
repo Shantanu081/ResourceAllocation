@@ -1,0 +1,6 @@
+com/shantanu/productcatalogue/service/ProductcatalogueApplication.class
+com/shantanu/productcatalogue/controller/ProductController.class
+com/shantanu/productcatalogue/domain/service/ProductService.class
+com/shantanu/productcatalogue/allocation/service/ProductServiceImpl.class
+com/shantanu/productcatalogue/model/InputDTO.class
+com/shantanu/productcatalogue/model/OutputDTO.class
